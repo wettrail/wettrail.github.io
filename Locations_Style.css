@@ -1,0 +1,33 @@
+
+.table1{
+	border-collapse: collapse;
+	margin-left: auto;
+  margin-right: auto;
+}
+H2, H4 {
+text-align: center;
+}
+th {
+border: 2px solid;
+padding: 5px 5px 5px 5px;
+}
+td {
+border: 1px solid;
+padding: 5px 5px 5px 5px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+td:hover {background-color: yellow;}
+
+tr:hover {background-color: coral;}
+
+

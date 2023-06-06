@@ -1,0 +1,51 @@
+ 
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 66.6667%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: #0080FF80;
+}
+
+.row .state {
+  width: 30%;
+}
+
+.row .state a {
+  font-size: 18px;
+  color: white;
+}
+
+.row .state a:hover {
+  color: yellow;
+}
+
+
+body {
+	position: relative;
+	background-image: url("images/raintrail.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	bottom: 25px;
+	background-color: #0080FF80;
+	
+}
+
+article {
+	width: 55%;
+	color: white;
+	float: right;
+	padding-top: 90px;
+	padding-right: 40px;
+	padding-bottom: 50px;
+	font: 25px Arial, sans-serif;
+	bottom: 25px;
+	background-color: #0080FF80;
+	
+}
