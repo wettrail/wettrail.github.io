@@ -1,7 +1,6 @@
 @echo off
 echo Pushing local repository to GitHub...
-@echo off
-"C:\Program Files\Git\git-bash.exe" 
+
 @echo off
 
 REM Change the directory to your Git repository
