@@ -10,7 +10,7 @@ REM Add the files to the staging area
 git add .
 
 REM Commit the changes with a custom message
-git commit -m "batch_commit _ table update"
+git commit -m "batch_commit _ table update2"
 
 REM Push the changes to the remote repository
 git push origin main
