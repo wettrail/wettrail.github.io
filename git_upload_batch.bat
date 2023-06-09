@@ -1,7 +1,7 @@
 @echo off
 echo Pushing local repository to GitHub...
 echo.
-
+"C:\Program Files\Git\git-bash.exe" --cd=C:\Users\Kyle\Documents\database_geog655\FME_Trail_Rain\Web\wettrail.github.io  git commit -m 'this is my first command commit - table updates' 
 setlocal
 
 rem Set your local repository path
