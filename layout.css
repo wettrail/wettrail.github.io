@@ -1,67 +1,77 @@
-html {
-	/* Set the hight ot 100% */
-	height: 100%;
-
+/* Reset some default styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
+/* Set a base font size and family */
 body {
-	/* Set the hight ot 100% */
-	height: 100%;
-	
+  font-family: Arial, sans-serif;
+  font-size: 16px;
 }
 
+/* Header styles */
 header {
-	/* Complete your code here.
-		header height 20% */
-	height: 20%;
-	width: 100%;
-	background-image: url("bikeonwettrail.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+  height: 20%;
+  width: 100%;
+  background-image: url("bikeonwettrail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 h1 {
-	color: white;
-	font-size: 40px;
-	padding: 50px;
-	text-shadow: 5px 5px brown;
-	font-family: cursive;
-		
+  color: white;
+  font-size: 40px;
+  padding: 50px;
+  text-shadow: 5px 5px brown;
+  font-family: cursive;
+  text-align: center;
 }
 
-nav{
-	width: 100%;
-	float: left;
-	
+/* Navigation styles */
+nav {
+  width: 100%;
+  background-color: Gainsboro;
 }
 
-nav a{
-	background-color: Gainsboro;
-	padding: 1%;
-	width: 23%;
-	height: 35px;
-	float: left;
-	text-align: center;
-	text-decoration: none;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: brown;
-		
+nav a {
+  display: inline-block;
+  width: 23%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: brown;
 }
 
-a:hover {
+nav a:hover {
   color: Gainsboro;
-  background-color: #008080
+  background-color: #008080;
 }
 
-footer{
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 25px;
-	background-color: Gainsboro;
-	color: brown;
-	
+/* Main content styles */
+#maincontent {
+  padding: 20px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  background-color: Gainsboro;
+  color: brown;
+  text-align: center;
+  line-height: 25px;
 }
