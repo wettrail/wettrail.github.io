@@ -4,6 +4,10 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 body {
@@ -13,16 +17,17 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  
 }
 
 article {
   width: 55%;
-  color: white;
-  float: right;
-  padding: 90px 40px 50px;
+  color: black;
+  float: middle;
+  
   font-size: 25px;
   font-family: Arial, sans-serif;
-  background-color: rgba(0, 128, 255, 0.5);
+  
   margin-bottom: 25px;
 }
 

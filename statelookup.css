@@ -49,3 +49,8 @@ article {
 	background-color: #0080FF80;
 	
 }
+
+ul li:hover {
+  background-color: yellow;
+  display: inline-block;
+}
