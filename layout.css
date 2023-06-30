@@ -15,7 +15,7 @@ body {
 header {
   height: 20%;
   width: 100%;
-  background-image: url("bikeonwettrail.jpg");
+  background-image: url("bikeonwettrail.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -24,11 +24,10 @@ header {
 }
 
 h1 {
-  color: white;
+  color: black;
   font-size: 40px;
   padding: 50px;
-  text-shadow: 5px 5px brown;
-  font-family: cursive;
+  text-shadow: 2px 2px brown;
   text-align: center;
 }
 
