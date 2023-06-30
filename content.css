@@ -1,5 +1,5 @@
 #maincontent {
-  min-height: 100vh;
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+
 }
 
 body {
