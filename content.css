@@ -17,17 +17,14 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  
 }
 
 article {
   width: 55%;
   color: black;
   float: middle;
-  
   font-size: 25px;
   font-family: Arial, sans-serif;
-  
   margin-bottom: 25px;
 }
 
