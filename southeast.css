@@ -17,18 +17,19 @@
   
 }
 
-#SC, #GA, #FL, #NC {
-  fill: #72A0C1; /* Initial color */
-  transition: fill 0.3s ease; /* Add a smooth transition effect */
 
-  /* Add a pointer cursor to indicate it's clickable */
-  cursor: pointer;
-}
-
-#SC:hover, #NC:hover, #GA:hover, #FL:hover {
-	fill: #00308F; /* Color on hover */
-}
 
 .svg-element path:hover {
   fill: #00308F; /* Color on hover */
 }
+
+/* CSS for the list */
+    .list-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .column {
+      flex: 1;
+    }

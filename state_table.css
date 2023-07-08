@@ -75,6 +75,7 @@ footer{
 	 margin: 0 auto;
   width: 80%;
   height: 90%;
+  margin-bottom: 40px; /* Add some margin at the bottom to create space */
 }
 
 #highlight{
