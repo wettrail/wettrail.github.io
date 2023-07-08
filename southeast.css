@@ -2,7 +2,11 @@
 
 
 .svg-element path {
-  fill: #B9D9EB; /* Color on hover */
+  fill: #72A0C1; /* Initial color */
+  transition: fill 0.3s ease; /* Add a smooth transition effect */
+
+  /* Add a pointer cursor to indicate it's clickable */
+  cursor: pointer;
   
 }
 
@@ -26,5 +30,5 @@
 }
 
 .svg-element path:hover {
-  fill: #B2FFFF; /* Color on hover */
+  fill: #00308F; /* Color on hover */
 }
