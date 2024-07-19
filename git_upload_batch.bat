@@ -4,7 +4,7 @@ echo Pushing local repository to GitHub...
 @echo off
 
 REM Change the directory to your Git repository
-cd "C:\Users\Kyle\Documents\database_geog655\FME_Trail_Rain\Web\wettrail.github.io"
+cd "C:\Users\kyler\Documents\TrailRain\database_geog655\FME_Trail_Rain\Web\wettrail.github.io"
 
 REM Add the files to the staging area
 git add .
